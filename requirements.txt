@@ -27,4 +27,4 @@ cycler==0.10.0
 pyparsing==2.4.7
 kiwisolver==1.2.0
 Flask==1.1.2
-gunicorn==0.14.2
+gunicorn==19.5.0
