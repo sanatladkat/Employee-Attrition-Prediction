@@ -17,6 +17,6 @@ Achieved good accuracy on the 'IBM HR Analytics Employee Attrition & Performance
 
 Dataset Link - [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
-Made a WEB API using Flask and deployed it on Herosku. Below is the link to access the API.
+Made a WEB API using [Flask](https://flask.palletsprojects.com/en/1.1.x/) framework and deployed it on [Heroku](https://www.heroku.com/) cloud platform. Below is the link to access the API.
 
-[Employee Attrition](https://employee-attrition-pred.herokuapp.com/)
+Web API - [Employee Attrition](https://employee-attrition-pred.herokuapp.com/)
