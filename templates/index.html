@@ -18,61 +18,61 @@
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}" method="POST" autocomplete="on">
 
-        Age : <input type="number" name="Age" placeholder="18-80" required min="18" max="80"><br><br>
+        <strong>Age</strong> : <input type="number" name="Age" placeholder="18-80" required min="18" max="80"><br><br>
 
-        BusinessTravel : <input type="radio" name="BusinessTravel" id="Rarely" value="Rarely">Rarely  <input type="radio" name="BusinessTravel" id="Frequently" value="Frequently">  Frequently<input type="radio" name="BusinessTravel" id="No Travel"  value="No Travel">No Travel<br><br>
+        <strong>BusinessTravel</strong> : <input type="radio" name="BusinessTravel" id="Rarely" value="Rarely">Rarely  <input type="radio" name="BusinessTravel" id="Frequently" value="Frequently">  Frequently<input type="radio" name="BusinessTravel" id="No Travel"  value="No Travel">No Travel<br><br>
 
-        Daily Rate : <input type="number" name="Daily Rate" placeholder="100-1600" required min="100" max="1600" size="30"><br><br>
+        <strong>Daily Rate</strong> : <input type="number" name="Daily Rate" placeholder="100-1600" required min="100" max="1600" size="30"><br><br>
 
-        Department :<input type="radio" name="Department" id="Research & Development" value="Research & Development">Research & Development  <input type="radio" name="Department" id="Human Resources" value="Human Resources">Human Resources  <input type="radio" name="Department" id="Sales"  value="Sales">Sales<br><br>
+        <strong>Department</strong> :<input type="radio" name="Department" id="Research & Development" value="Research & Development">Research & Development  <input type="radio" name="Department" id="Human Resources" value="Human Resources">Human Resources  <input type="radio" name="Department" id="Sales"  value="Sales">Sales<br><br>
 
-        Distance From Home : <input type="number" name="Distance From Home" placeholder="1-29" required min="1" max="29"><br><br>
+        <strong>Distance From Home</strong> : <input type="number" name="Distance From Home" placeholder="1-29" required min="1" max="29"><br><br>
 
-        Education : <input type="number" name="Education" placeholder="1-5" required min="1" max="5"><br><br>
+        <strong>Education</strong> : <input type="number" name="Education" placeholder="1-5" required min="1" max="5"><br><br>
 
-        Education Field : <input type="radio" name="Education Field" id="Life Sciences" value="Life Sciences">Life Sciences  <input type="radio" name="Education Field" id="Medical" value="Medical">Medical  <input type="radio" name="Education Field" id="Marketing"  value="Marketing">Marketing  <input type="radio" name="Education Field" id="Technical Degree"  value="Technical Degree">Technical Degree  <input type="radio" name="Education Field" id="Human Resources"  value="Human Resources">Human Resources  <input type="radio" name="Education Field" id="Other"  value="Other">Other  <br><br>
+        <strong>Education Field</strong> : <input type="radio" name="Education Field" id="Life Sciences" value="Life Sciences">Life Sciences  <input type="radio" name="Education Field" id="Medical" value="Medical">Medical  <input type="radio" name="Education Field" id="Marketing"  value="Marketing">Marketing  <input type="radio" name="Education Field" id="Technical Degree"  value="Technical Degree">Technical Degree  <input type="radio" name="Education Field" id="Human Resources"  value="Human Resources">Human Resources  <input type="radio" name="Education Field" id="Other"  value="Other">Other  <br><br>
 
-        Environment Satisfaction : <input type="number" name="Environment Satisfaction" placeholder="1-4" required min="1" max="4"><br><br>
+        <strong>Environment Satisfaction</strong> : <input type="number" name="Environment Satisfaction" placeholder="1-4" required min="1" max="4"><br><br>
 
-        Gender : <input type="radio" name="Gender" id="Male" value="Male">Male  <input type="radio" name="Gender" id="Female" value="Female">Female<br><br>
+        <strong>Gender</strong> : <input type="radio" name="Gender" id="Male" value="Male">Male  <input type="radio" name="Gender" id="Female" value="Female">Female<br><br>
 
-        Hourly Rate : <input type="number" name="Hourly Rate" placeholder="30-100" required min="30" max="100"><br><br>
+        <strong>Hourly Rate</strong> : <input type="number" name="Hourly Rate" placeholder="30-100" required min="30" max="100"><br><br>
 
-        Job Involvement : <input type="number" name="Job Involvement" placeholder="1-4" required min="1" max="4"><br><br>
+        <strong>Job Involvement</strong> : <input type="number" name="Job Involvement" placeholder="1-4" required min="1" max="4"><br><br>
 
-        Job Level : <input type="number" name="Job Level" placeholder="1-5" required min="1" max="5"><br><br>
+        <strong>Job Level</strong> : <input type="number" name="Job Level" placeholder="1-5" required min="1" max="5"><br><br>
 
-        Job Role : <input type="radio" name="Job Role" id="Sales Executive" value="Sales Executives">Sales Executive  <input type="radio" name="Job Role" id="Research Scientist" value="Research Scientist">Research Scientist  <input type="radio" name="Job Role" id="Laboratory Technician"  value="Laboratory Technician">Laboratory Technician  <input type="radio" name="Job Role" id="Manufacturing Director"  value="Manufacturing Director">Manufacturing Director  <input type="radio" name="Job Role" id="Healthcare Representative"  value="Healthcare Representative">Healthcare Representative  <input type="radio" name="Job Role" id="Manager" value="Manager">Manager  <input type="radio" name="Job Role" id="Sales Representative" value="Sales Representative">Sales Representative  <input type="radio" name="Job Role" id="Research Director" value="Research Director">Research Director  <input type="radio" name="Job Role" id="Human Resource" value="Human Resources">Human Resources  <br><br>
+        <strong>Job Role</strong> : <input type="radio" name="Job Role" id="Sales Executive" value="Sales Executives">Sales Executive  <input type="radio" name="Job Role" id="Research Scientist" value="Research Scientist">Research Scientist  <input type="radio" name="Job Role" id="Laboratory Technician"  value="Laboratory Technician">Laboratory Technician  <input type="radio" name="Job Role" id="Manufacturing Director"  value="Manufacturing Director">Manufacturing Director  <input type="radio" name="Job Role" id="Healthcare Representative"  value="Healthcare Representative">Healthcare Representative  <input type="radio" name="Job Role" id="Manager" value="Manager">Manager  <input type="radio" name="Job Role" id="Sales Representative" value="Sales Representative">Sales Representative  <input type="radio" name="Job Role" id="Research Director" value="Research Director">Research Director  <input type="radio" name="Job Role" id="Human Resource" value="Human Resources">Human Resources  <br><br>
 
-        Job Satisfaction : <input type="number" name="Job Satisfaction" placeholder="1-4" required min="1" max="4"><br><br>
+        <strong>Job Satisfaction</strong> : <input type="number" name="Job Satisfaction" placeholder="1-4" required min="1" max="4"><br><br>
 
-        Marital Status : <input type="radio" name="Marital Status" id="Married" value="Married">Married  <input type="radio" name="Marital Status" id="Single" value="Single">Single  <input type="radio" name="Marital Status" id="Divorced" value="Divorced">Divorced<br><br>
+        <strong>Marital Status</strong> : <input type="radio" name="Marital Status" id="Married" value="Married">Married  <input type="radio" name="Marital Status" id="Single" value="Single">Single  <input type="radio" name="Marital Status" id="Divorced" value="Divorced">Divorced<br><br>
 
-        Monthly Income : <input type="number" name="Monthly Income" placeholder="1000-20000" required min="1000" max="20000" size="30"><br><br>
+        <strong>Monthly Income</strong> : <input type="number" name="Monthly Income" placeholder="1000-20000" required min="1000" max="20000" size="30">  (1000-20000)<br><br>
 
-        Number of Companies Worked in : <input type="number" name="Number of Companies Worked in" placeholder="0-9" required min="1" max="9"><br><br>
+        <strong>Number of Companies Worked in</strong> : <input type="number" name="Number of Companies Worked in" placeholder="0-9" required min="1" max="9"><br><br>
 
-        Over Time : <input type="radio" name="Over Time" id="Yes" value="Yes">Yes  <input type="radio" name="Over Time" id="No" value="No">No<br><br>
+        <strong>Over Time</strong> : <input type="radio" name="Over Time" id="Yes" value="Yes">Yes  <input type="radio" name="Over Time" id="No" value="No">No<br><br>
 
-        Performance Rating : <input type="number" name="Performance Rating" placeholder="1-4" required min="1" max="4"><br><br>
+        <strong>Performance Rating</strong> : <input type="number" name="Performance Rating" placeholder="1-4" required min="1" max="4"><br><br>
 
-        Relationship Satisfaction : <input type="number" name="Relationship Satisfaction" placeholder="1-4" required min="1" max="4"><br><br>
+        <strong>Relationship Satisfaction</strong> : <input type="number" name="Relationship Satisfaction" placeholder="1-4" required min="1" max="4"><br><br>
 
-        Stock Option Level : <input type="number" name="Stock Option Level" placeholder="0-3" required min="0" max="3"><br><br>
+        <strong>Stock Option Level</strong> : <input type="number" name="Stock Option Level" placeholder="0-3" required min="0" max="3"><br><br>
 
-        Total Working Years : <input type="number" name="Total Working Years" placeholder="0-40" required min="0" max="40"><br><br>
+        <strong>Total Working Years</strong> : <input type="number" name="Total Working Years" placeholder="0-40" required min="0" max="40"><br><br>
 
-        Training Times Last Year : <input type="number" name="Training Times Last Year" placeholder="0-6" required min="0" max="6"><br><br>
+        <strong>Training Times Last Year</strong> : <input type="number" name="Training Times Last Year" placeholder="0-6" required min="0" max="6"><br><br>
 
-        Work Life Balance : <input type="number" name="Work Life Balance" placeholder="1-4" required min="1" max="4"><br><br>
+        <strong>Work Life Balance</strong> : <input type="number" name="Work Life Balance" placeholder="1-4" required min="1" max="4"><br><br>
 
-        YearsAtCompany : <input type="number" name="Years At Company" placeholder="0-40" required min="0" max="40"><br><br>
+        <strong>Years At Company</strong> : <input type="number" name="Years At Company" placeholder="0-40" required min="0" max="40"><br><br>
 
-        Years In Current Role : <input type="number" name="Years In Current Role" placeholder="0-18" required min="0" max="18"><br><br>
+        <strong>Years In Current Role</strong> : <input type="number" name="Years In Current Role" placeholder="0-18" required min="0" max="18"><br><br>
 
-        Years Since Last Promotion : <input type="number" name="Years Since Last Promotion" placeholder="0-15" required min="0" max="15"><br><br>
+        <strong>Years Since Last Promotion</strong> : <input type="number" name="Years Since Last Promotion" placeholder="0-15" required min="0" max="15"><br><br>
 
-        Years With Curr Manager : <input type="number" name="Years With Curr Manager" placeholder="0-17" required min="0" max="17"><br><br>
+        <strong>Years With Curr Manager</strong> : <input type="number" name="Years With Curr Manager" placeholder="0-17" required min="0" max="17"><br><br>
 
         <br><button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
