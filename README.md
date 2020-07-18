@@ -1,5 +1,7 @@
 # Employee Attrition
 
+[Attrition](Attrition-01.png)
+
 Attrition is the silent killer that can switly disable even the most successful and stable of the organizations in a shockingly spare amount of time.
 Hiring new employees are extremely complex task that requires capital, time and skills.Also new employee costs a lot more than that Persons salary.
 
