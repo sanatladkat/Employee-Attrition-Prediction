@@ -21,7 +21,7 @@ python-slugify==4.0.1
 pytz==2020.1
 requests==2.24.0
 scikit-learn==0.23.1
-scipy==1.5.1
+scipy==1.11.1
 six==1.15.0
 sklearn==0.0
 text-unidecode==1.3
